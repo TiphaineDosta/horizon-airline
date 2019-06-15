@@ -22,5 +22,11 @@
             margin: 15px 0;
             margin-left: 10px;
         }
+        span.item {
+            display: none;
+        }
+        span.item-active {
+            display: block;
+        }
     }
 }
