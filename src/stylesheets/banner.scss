@@ -1,0 +1,15 @@
+$height-banner: 400px;
+.custom-banner {
+    height: $height-banner;
+    background: #eee;
+    form {
+        margin-top: $height-banner / 2;
+        padding: 15px;
+        background: white;
+        border-radius: 5px;
+        label {
+            display: block;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airline Horizon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="custom-navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-1 col-md-3 flex-align-center">
+                    <div class="logo">Horizon Airline</div>
+                </div>
+                <div class="offset-md-1 col-md-5 flex-align-center">
+                    <div class="menu">
+                        <ul>
+                            <li class="margin-r-30">Destinations</li>
+                            <li class="margin-r-30">Services</li>
+                            <li class="margin-r-30">Compagny</li>
+                            <li class="margin-r-30">Help</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 flex-align-center flex-justify-right">
+                    <nav class="config">
+                        <ul>
+                            <li class="margin-l-30">Account</li>
+                            <li class="margin-l-30">Eng</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BANNER -->
+    <div class="custom-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-2 col-md-8">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label for="from">From</label>
+                                <input id="from" type="text" name="from" placeholder="City" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="to">To</label>
+                                <input id="to" type="text" name="to" placeholder="City" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="departure">Departure</label>
+                                <input id="departure" type="text" name="departure" placeholder="dd/mm/yyyy" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="return">Return</label>
+                                <input id="return" type="text" name="return" placeholder="dd/mm/yyyy" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="size">Passenger</label>
+                                <select id="size" type="text" name="size" class="form-control">
+                                    <option value="1">Adult : 1</option>
+                                    <option value="2">Adult : 2</option>
+                                    <option value="3">Adult : 3</option>
+                                    <option value="4">Adult : 4</option>
+                                    <option value="5">Adult : 5</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2 flex-align-end">
+                                    <button class="btn-orange">
+                                        Search
+                                    </button>
+                                </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMblTugw9wQccMVI9fAcOlRkKivRDiB3w&libraries=places"></script>
+    <script src="public/bundle.js"></script>
+</body>
+</html>

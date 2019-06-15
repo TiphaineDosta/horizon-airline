@@ -1,0 +1,16 @@
+@function property-value($property, $selector: null) {
+    @return $magic;
+}
+
+.custom-navbar {
+    height: 60px;
+    background: $blue;
+    color: white;
+    text-transform: uppercase;
+    .menu {
+        @extend .list-menu;
+    }
+    .config {
+        @extend .list-menu;
+    }
+}

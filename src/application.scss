@@ -1,0 +1,13 @@
+@import "./stylesheets/font.scss";
+@import "./stylesheets/variables.scss";
+@import "./stylesheets/utilities.scss";
+@import "./stylesheets/container.scss";
+@import "./stylesheets/buttons.scss";
+@import "./stylesheets/navbar.scss";
+@import "./stylesheets/banner.scss";
+
+body {
+    font-family: 'Helvetica';
+    padding: 0;
+    margin: 0;
+}
