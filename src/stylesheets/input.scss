@@ -1,0 +1,46 @@
+.input-arrow, .input-arrow:focus, .input-arrow:active {
+    background: url('./assets/ARROW_GREY.png');
+    background-size: 8px;
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.input-white {
+    background: white !important;
+}
+select:focus, input[type=text]:focus {
+    border-color: $blue !important;
+    background: white !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.flatpickr-day:hover {
+    background: $blue;
+    color: white;
+}
+.flatpickr-day.today {
+    border: 1px solid $blue;
+    &:hover {
+        background: $blue;
+        color: white;
+    }
+}
+.flatpickr-day.selected {
+    border: 1px solid $blue;
+    background: $blue;
+    color: white;
+}
+.flatpickr-day.prevMonthDay, .flatpickr-day.nextMonthDay {
+    color: grey;
+    &:hover {
+        border: 1px solid $blue;
+        background: $blue;
+        color: white;
+    }
+}
+select.flatpickr-monthDropdown-months, input.numInput {
+    background: white !important;
+}

@@ -7,6 +7,9 @@
     background: $blue;
     color: white;
     text-transform: uppercase;
+    .logo {
+        height: 20px;
+    }
     .menu {
         @extend .list-menu;
     }
