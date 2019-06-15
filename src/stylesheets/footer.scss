@@ -3,12 +3,12 @@
         background: $orange;
         height: 40px;
         .tab {
+            display: inline-block;
             text-transform: uppercase;
             color: white;
             height: 100%;
             padding: 10px;
             cursor: pointer;
-            margin-right: 10px;
         }
         .active {
             background: $blue;
@@ -17,6 +17,10 @@
     }
     .bloc {
         background: $blue;
-        height: 300px;
+        color: white;
+        .fake-link {
+            margin: 15px 0;
+            margin-left: 10px;
+        }
     }
 }
