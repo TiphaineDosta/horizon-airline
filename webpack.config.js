@@ -9,8 +9,8 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.otf$/,
-                exclude: /node_modules/,
+                test: /(\.otf|\.jpe?g|\.png)$/,
+                exclude: /node_modules|models/,
                 use: 'url-loader?limit=true'
             },
             {

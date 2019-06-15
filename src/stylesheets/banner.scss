@@ -1,7 +1,9 @@
-$height-banner: 60vh;
+$height-banner: 62vh;
 .custom-banner {
     height: $height-banner;
-    background: #eee;
+    background-image: url('./assets/banner-plane.jpg');
+    background-position: 50% 75%;
+    background-size: cover;
     form {
         margin-top: $height-banner / 2;
         padding: 15px;

@@ -1,0 +1,22 @@
+.custom-footer {
+    .tabs {
+        background: $orange;
+        height: 40px;
+        .tab {
+            text-transform: uppercase;
+            color: white;
+            height: 100%;
+            padding: 10px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .active {
+            background: $blue;
+            border-radius: 4px 4px 0 0;
+        }
+    }
+    .bloc {
+        background: $blue;
+        height: 300px;
+    }
+}
