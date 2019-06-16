@@ -85,7 +85,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="offset-md-2 col-md-8">
-                    <form action="./travels.html" class="form-container">
+                    <form action="#" class="form-container">
                         <span class="new">New: Departure from Bordeaux</span>
                         <div class="row">
                             <div class="col-md-2">
@@ -122,36 +122,296 @@
 
     <p class="margin-t-100"></p>
 
-    <!-- NEWS -->
+    <!-- FILTERS -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-2 col-md-1 margin-b-10">
+                FILTERS
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-md-2 col-md-1">
+                <select name="price" id="price" class="form-control input-arrow">
+                    <option value="empty">Price</option>
+                    <option value="100">Between 0€ and 100€</option>
+                    <option value="1000">Between 100€ and 1000€</option>
+                    <option value="5000">Between 1000€ and 5000€</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <select name="times" id="times" class="form-control input-arrow">
+                    <option value="empty">Times</option>
+                    <option value="1">1h</option>
+                    <option value="2">2h</option>
+                    <option value="3">3h</option>
+                    <option value="4">4h</option>
+                    <option value="5">5h</option>
+                    <option value="6">6h</option>
+                    <option value="7">7h</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <select name="stops" id="stops" class="form-control input-arrow">
+                    <option value="empty">Stops</option>
+                    <option value="1">1 stop</option>
+                    <option value="2">2 stops</option>
+                    <option value="3">3 stops</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <select name="duration" id="duration" class="form-control input-arrow">
+                    <option value="empty">Duration</option>
+                    <option value="1">1h</option>
+                    <option value="2">2h</option>
+                    <option value="3">3h</option>
+                    <option value="4">4h</option>
+                    <option value="5">5h</option>
+                    <option value="6">6h</option>
+                    <option value="7">7h</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    
+    <p class="margin-t-60"></p>
+
+    <!-- TRAVELS -->
+
+    <!-- FIRST -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-2 col-md-3">
+                <span class="text-blue">DEPARTING FLIGHT</span>
+            </div>
+        </div>
+    </div>
+    <p class="margin-t-20"></p>
     <div class="container-fluid">
         <div class="row">
             <div class="offset-md-2 col-md-8">
-                <h2 class="header">
-                    NEWS
-                </h2>
+                <div class="travel" data-travel="departure">
+                    <span class="text-blue hour">13:50 - 05:55</span>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="text-blue">Bordeaux</div>
+                            <div class="text-orange">BOD</div>
+                        </div>
+                        <div>
+                            <div class="text-blue">Horizon Airlines</div>
+                            <div class="text-orange">Flight ZI605</div>
+                        </div>
+                        <div>
+                            <div class="text-blue">Trip Duration</div>
+                            <div class="text-orange">10h05</div>
+                        </div>
+                        <div>
+                            <div class="btn-orange-alter">Book</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="text-blue">PEKIN</div>
+                            <div class="text-orange">PEK</div>
+                        </div>
+                        <div>
+                            <div class="text-grey fake-link">View Flight Details</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="margin-t-20"></p>
+
+    <!-- SECOND -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-2 col-md-8">
+                <div class="travel" data-travel="departure">
+                    <span class="text-blue hour">23:20 - 15:25</span>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="text-blue">Bordeaux</div>
+                            <div class="text-orange">BOD</div>
+                        </div>
+                        <div>
+                            <div class="text-blue">Horizon Airlines</div>
+                            <div class="text-orange">Flight ZI605</div>
+                        </div>
+                        <div>
+                            <div class="text-blue">Trip Duration</div>
+                            <div class="text-orange">10h05</div>
+                        </div>
+                        <div>
+                            <div class="btn-orange-alter">Book</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="text-blue">PEKIN</div>
+                            <div class="text-orange">PEK</div>
+                        </div>
+                        <div>
+                            <div class="text-grey fake-link">View Flight Details</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="margin-t-60"></p>
+
+    <!-- THIRD -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-2 col-md-3">
+                <span class="text-blue">RETURNING FLIGHT</span>
+            </div>
+        </div>
+    </div>
+    <p class="margin-t-20"></p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-2 col-md-8">
+                <div class="travel" data-travel="return">
+                    <span class="text-blue hour">01:00 - 05:55</span>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="text-blue">PEKIN</div>
+                            <div class="text-orange">PEK</div>
+                        </div>
+                        <div>
+                            <div class="text-blue">Horizon Airlines</div>
+                            <div class="text-orange">Flight ZI605</div>
+                        </div>
+                        <div>
+                            <div class="text-blue">Trip Duration</div>
+                            <div class="text-orange">10h05</div>
+                        </div>
+                        <div>
+                            <div class="btn-orange-alter">Book</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="text-blue">Bordeaux</div>
+                            <div class="text-orange">BOD</div>
+                        </div>
+                        <div>
+                            <div class="text-grey fake-link">View Flight Details</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="margin-t-20"></p>
+
+    <!-- FOURTH -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-2 col-md-8">
+                <div class="travel" data-travel="return">
+                    <span class="text-blue hour">09:05 - 14:05</span>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="text-blue">PEKIN</div>
+                            <div class="text-orange">PEK</div>
+                        </div>
+                        <div>
+                            <div class="text-blue">Horizon Airlines</div>
+                            <div class="text-orange">Flight ZI605</div>
+                        </div>
+                        <div>
+                            <div class="text-blue">Trip Duration</div>
+                            <div class="text-orange">11h00</div>
+                        </div>
+                        <div>
+                            <div class="btn-orange-alter">Book</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="text-blue">Bordeaux</div>
+                            <div class="text-orange">BOD</div>
+                        </div>
+                        <div>
+                            <div class="text-grey fake-link">View Flight Details</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <p class="margin-t-30"></p>
-    
-    <!-- CARDS -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="offset-md-2 col-md-2 custom-card">
-                <div class="description fake-link">Horizon Airlines open new lines from Bordeaux.</div>
-                <div class="picture" id="bourse"></div>
+    <p class="margin-t-60"></p>
+
+    <!-- FORM PAYMENT -->
+    <div id="payment" style="display: none;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-2 col-md-3">
+                    <span class="text-blue">PASSENGER</span>
+                    <div class="separator"></div>
+                </div>
             </div>
-            <div class="offset-md-1 col-md-2 custom-card">
-                <div class="description fake-link">A parking space for you anywhere in the world !</div>
-                <div class="picture" id="parking"></div>
-            </div>
-            <div class="offset-md-1 col-md-2 custom-card">
-                <div class="description fake-link">Enjoy Horizon Fidelity Card free for one year</div>
-                <div class="picture" id="travel"></div>
+        </div>
+        <p class="margin-t-20"></p>   
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-2 col-md-3">
+                    <div class="form-payment">
+                        <form action="">
+                            <div class="margin-b-20">
+                                <label for="last-name">Last name</label>
+                                <input type="text" name="last-name" placeholder="Dupont" class="form-control">
+                            </div>
+                            <div class="margin-b-20">
+                                <label for="first-name">First name</label>
+                                <input type="text" name="first-name" placeholder="Jean" class="form-control">
+                            </div>
+                            <div class="margin-b-20">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" placeholder="jean.dupont@gmail.com" class="form-control">
+                            </div>
+                            <div class="margin-b-20">
+                                <label for="country">Country</label>
+                                <input type="text" name="country" placeholder="FRANCE" class="form-control">
+                            </div>
+                            <div class="margin-b-20">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="text" name="phone_number" placeholder="+33XXXXXXXXXXX" class="form-control">
+                            </div>
+                            <div class="margin-b-20">
+                                <label>Horizon Fidelity Card</label>
+                                <div>
+                                    <label for="fid-yes">Yes</label>
+                                    <input type="checkbox" name="fid-yes" value="Yes">
+                                    <label for="fid-no">No</label>
+                                    <input type="checkbox" name="fid-no" value="No">
+                                </div>
+                            </div>
+                            <div class="margin-b-20">
+                                <label>Travelling for business</label>
+                                <div>
+                                    <label for="bus-yes">Yes</label>
+                                    <input type="checkbox" name="bus-yes" value="Yes">
+                                    <label for="bus-no">No</label>
+                                    <input type="checkbox" name="bus-no" value="No">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <div class="btn-orange-alter">Proceed To Payment</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 
     <p class="margin-t-100"></p>
 

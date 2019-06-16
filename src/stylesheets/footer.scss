@@ -9,6 +9,7 @@
             height: 100%;
             padding: 10px;
             cursor: pointer;
+            user-select: none;
         }
         .active {
             background: $blue;
