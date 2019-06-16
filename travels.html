@@ -351,7 +351,7 @@
     <p class="margin-t-60"></p>
 
     <!-- FORM PAYMENT -->
-    <div id="payment" style="display: none;">
+    <div id="payment" hidden>
         <div class="container-fluid">
             <div class="row">
                 <div class="offset-md-2 col-md-3">
@@ -389,19 +389,20 @@
                             <div class="margin-b-20">
                                 <label>Horizon Fidelity Card</label>
                                 <div>
-                                    <label for="fid-yes">Yes</label>
-                                    <input type="checkbox" name="fid-yes" value="Yes">
-                                    <label for="fid-no">No</label>
-                                    <input type="checkbox" name="fid-no" value="No">
+                                    <label for="Yes">Yes</label>
+                                    <input type="radio" name="fid" id="fid-yes" class="radio">
+                                    <label for="No">No</label>
+                                    <input type="radio" name="fid" id="fid-no" class="radio">
+                                    <div id="merch-fid" class="fake-link text-blue" style="display: none;">I want Horizon Fidelity Card</div>
                                 </div>
                             </div>
                             <div class="margin-b-20">
                                 <label>Travelling for business</label>
                                 <div>
-                                    <label for="bus-yes">Yes</label>
-                                    <input type="checkbox" name="bus-yes" value="Yes">
-                                    <label for="bus-no">No</label>
-                                    <input type="checkbox" name="bus-no" value="No">
+                                    <label for="Yes">Yes</label>
+                                    <input type="radio" name="bus">
+                                    <label for="No">No</label>
+                                    <input type="radio" name="bus">
                                 </div>
                             </div>
                         </form>
