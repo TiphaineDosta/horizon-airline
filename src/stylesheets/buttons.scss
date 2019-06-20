@@ -19,3 +19,10 @@
     user-select: none;
     padding: 7px 25px;
 }
+
+.btn-orange-marged {
+    @extend .btn-orange-alter;
+    padding-left: 80px; 
+    padding-right: 80px;
+    font-size: 20px;
+}

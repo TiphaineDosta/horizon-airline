@@ -1,0 +1,20 @@
+body {
+    position: relative;
+    #cookies {
+        color: $blue;
+        z-index: 2;
+        background: rgba(255,255,255,0.5);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        .bloc {
+            margin-top: 15%; 
+            background: white;
+            border-radius: 5px;
+            padding: 20px;
+            position: fixed;
+        }
+    }
+}
